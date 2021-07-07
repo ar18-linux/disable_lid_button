@@ -2,7 +2,7 @@
 Description=Disable lid button
  
 [Service]
-ExecStart=/opt/ar18/disable_lid_button/disable_lid_button.sh
+ExecStart={{INSTALL_DIR}}/disable_lid_button/disable_lid_button.sh
  
 [Install]
 WantedBy=multi-user.target
